@@ -2,7 +2,7 @@ const express = require("express")
 const bodyParser = require("body-parser")
 const mongoose = require("mongoose")
 
-
+const database = require("./Database/db_connection")
 const app = express()
 const port = process.env.PORT || 3000;
 
