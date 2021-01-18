@@ -6,7 +6,7 @@ exports.show_user = (req,res)=>{
     });
 };
 
-exports.inssert_user = (req,res)=>{
-    const data = req.body
+exports.insert_user = (req,res)=>{
+    const data = new User(req.body)
     data.save()
 }
