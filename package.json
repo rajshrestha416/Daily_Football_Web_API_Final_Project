@@ -1,0 +1,24 @@
+{
+  "name": "daily_football_final_project",
+  "version": "1.0.0",
+  "description": "Web application final project ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajshrestha416/Daily_Football_Web_API_Final_Project.git"
+  },
+  "author": "Raj Shrestha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajshrestha416/Daily_Football_Web_API_Final_Project/issues"
+  },
+  "homepage": "https://github.com/rajshrestha416/Daily_Football_Web_API_Final_Project#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.12"
+  }
+}
